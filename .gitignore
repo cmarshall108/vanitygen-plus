@@ -50,3 +50,19 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Mac OS
+*.DS_Store
+
+# Build
+build/
+bin/
+
+# Other
+*.oclbin
+*.o
+vanitygen
+oclvanitygen
+oclvanityminer
+keyconv
+results.txt
