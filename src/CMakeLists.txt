@@ -16,7 +16,7 @@ set(SOURCE_HEADERS
 
 if(WIN32)
   list(APPEND SOURCE_FILES winglue.c)
-  list(APPEND SOURCE_HEADERS winglue.c)
+  list(APPEND SOURCE_HEADERS winglue.h)
 endif()
 
 add_executable(
